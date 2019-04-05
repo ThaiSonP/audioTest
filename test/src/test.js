@@ -53,7 +53,12 @@ export class Test extends React.Component {
         <button onClick={this.startRecording} type="button">Start</button>
         <button onClick={this.stopRecording} type="button">Stop</button>
         <button onClick={this.resetBlob}>delete</button><br/>
-        <audio ref="audio_tag" src={this.state.blob} controls />
+        Your recording: <br/>
+        <audio ref="audio_tag" src={this.state.blob} controls /><br/>
+
+        Reed's recording!<br/>
+        <audio ref='audio_tag' src={'blob:http://localhost:3000/2ef4b587-0819-4c15-b6cb-85a08056a9b3'} controls/>
+
       </div>
     );
   }
