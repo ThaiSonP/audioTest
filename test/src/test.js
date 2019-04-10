@@ -56,8 +56,8 @@ export class Test extends React.Component {
         Your recording: <br/>
         <audio ref="audio_tag" src={this.state.blob} controls /><br/>
 
-        Reed's recording!<br/>
-        <audio ref='audio_tag' src={'blob:http://localhost:3000/2ef4b587-0819-4c15-b6cb-85a08056a9b3'} controls/>
+        Prior recording!<br/>
+      <audio ref='audio_tag' src={'blob:http://localhost:3001/65ef5eda-084a-4004-9d80-8b1a665a3789'} controls/>
 
       </div>
     );
